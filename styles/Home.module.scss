@@ -1,0 +1,29 @@
+.bartop {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 0;
+  .logo {
+    width: auto;
+    height: 80px;
+  }
+  .name {
+    font-size: 12px;
+    font-family: var(--font-mono);
+    strong {
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+  }
+  .menu {
+    ul {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 30px;
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+}
