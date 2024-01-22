@@ -1,5 +1,5 @@
 import HeadInfor from '@/components/HeadInfor';
-import AboutMe from '@/components/aboutMe';
+import AboutMe from '@/components/AboutMe';
 import Header from '@/components/Header';
 import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
