@@ -1,6 +1,9 @@
-import Link from 'next/link'
-import styles from '@/styles/Home.module.scss'
-import HeadInfor from '@/components/HeadInfor'
+import HeadInfor from '@/components/HeadInfor';
+import AboutMe from '@/components/AboutMe';
+import Header from '@/components/Header';
+import Skills from '@/components/Skills';
+import Experience from '@/components/Experience';
+import styles from '@/styles/Home.module.scss';
 
 export default function Home() {
   return (
@@ -11,18 +14,10 @@ export default function Home() {
       />
       <main className="main">
         <div className="container">
-
-          <header className={styles.bartop}>
-            <h1 className={styles.name}>Front-End: <br/><strong>Valleir Malta</strong></h1>
-            <nav className={styles.menu}>
-              <ul>
-                <li><Link href="/dashboard">HTML</Link></li>
-                <li><Link href="/dashboard">React</Link></li>
-                <li><Link href="/dashboard">Efeitos CSS</Link></li>
-              </ul>
-            </nav>
-          </header>
-
+          <Header />
+          <AboutMe />
+          <Skills />
+          <Experience />
         </div>
       </main>
     </>
