@@ -96,10 +96,12 @@ body {
 h1, h2, h3, h4 {
   text-wrap: balance;
 }
+li {
+  list-style-type: none;
+}
 p {
   text-wrap: pretty;
 }
-
 a {
   color: inherit;
   text-decoration: none;
