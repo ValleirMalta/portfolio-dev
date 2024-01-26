@@ -12,8 +12,8 @@ export default function Home() {
         title='Front-End: Valleir Malta'
         description='Curriculo Online'
       />
-      <main className="main">
-        <div className="container">
+      <main className="mainHome">
+        <div className="containerHome">
           <Header />
           <AboutMe />
           <Skills />

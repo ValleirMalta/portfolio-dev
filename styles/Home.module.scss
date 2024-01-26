@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 20px 0;
+  padding: 45px 0;
   .logo {
     width: auto;
     height: 80px;
@@ -33,12 +33,12 @@
 }
 .skills,
 .aboutMe {
-  padding: 30px 0;
+  padding: 15px 0;
 }
 .tituloSection {
   color: #0030ef;
   font-family: "InterBlack", sans-serif;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .aboutMe {
   display: grid;
@@ -47,12 +47,19 @@
   .personalInfor {
     padding-top: 26px;
   }
-  @media (max-width: 700px) {
+  p {
+    font-family: "InterRegular", sans-serif;
+    strong {
+      font-family: "InterBold", sans-serif;
+    }
+  }
+  @media (max-width: 800px) {
     grid-template-columns: 1fr;
     gap: 0px;
   }
 }
 .skills {
+  margin-bottom: 20px;
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -60,14 +67,20 @@
     row-gap: 20px;
     margin-top: 10px;
     li {
-      border: 1px solid #000;
-      padding: 5px 10px;
-      border-radius: 16px;
+      font-family: "InterRegular", sans-serif;
+      border: 1px solid #f1f1f1;
+      padding: 7px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.6s;
+      &:hover {
+        border: 1px solid #000;
+      }
     }
   }
 }
 .experience {
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   .timeline {
     width: 100%;
     margin-top: 30px;
@@ -83,7 +96,7 @@
           border-radius: 50%;
           display: inline-block;
           flex-shrink: 0;
-          margin: 4px  10px;
+          margin: 4px 15px 0 0;
           position: relative;
           width: 0.75em;
           height: 0.75em;
@@ -98,7 +111,7 @@
           font-family: "InterBold", sans-serif;
           span {
             font-size: 0.8em;
-            font-family: "InterRegular", sans-serif;
+            font-family: "InterMediun", sans-serif
           }
         }
         .itemInfor {
@@ -114,7 +127,7 @@
           display: block;
           position: absolute;
           top: 1em;
-          left: 16px;
+          left:6px;
           width: 0.125em;
           height: 100%;
           transform: translateX(-50%);
