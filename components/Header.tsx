@@ -7,17 +7,6 @@ import styles from '@/styles/Home.module.scss'
 export default function HeaderMain(){
     return(
         <>
-
-        {/* <header className="bartop">
-            <nav className="menu">
-                <ul>
-                <li><Link href="/dashboard">HTML</Link></li>
-                <li><Link href="/dashboard">React</Link></li>
-                <li><Link href="/dashboard">Efeitos CSS</Link></li>
-                </ul>
-            </nav>
-        </header> */}
-
         <header className={styles.bartop}>
             <div className={styles.name}>Front-End: <br/>
             <h1>
@@ -26,9 +15,8 @@ export default function HeaderMain(){
             </div>
             <nav className={styles.menu}>
                 <ul>
-                <li><Link href="/dashboard">HTML</Link></li>
-                <li><Link href="/dashboard">React</Link></li>
-                <li><Link href="/dashboard">Efeitos CSS</Link></li>
+                <li><Link href="/react">React</Link></li>
+                <li><Link href="/efeitosCss">Efeitos CSS</Link></li>
                 </ul>
             </nav>
         </header>
