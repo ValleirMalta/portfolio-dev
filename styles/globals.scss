@@ -58,12 +58,32 @@ a {
   color: inherit;
   text-decoration: none;
 }
+@keyframes colorChange {
+  0% {
+    background-color: #ffffc2;
+  }
+  20% {
+    background-color: #f0ffc2;
+  }
+  40% {
+    background-color: #e0ffc2;
+  }
+  60% {
+    background-color: #d1ffc2;
+  }
+  80% {
+    background-color: #d1ffc2;
+  }
+  100% {
+    background-color: #c2ffc2;
+  }
+}
 .mainHome {
   height: 100%;
   display: flex;
   padding: 35px 30px; 
   justify-content: center;
-  background: #e6f9ff;
+  animation: colorChange 6s ease infinite;
   > .containerHome {
     max-width: 1200px;
     width: 100%;
@@ -80,4 +100,11 @@ a {
     }
   }
 }
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  }
 
