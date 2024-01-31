@@ -1,3 +1,4 @@
+
 .bartop {
   display: flex;
   flex-wrap: wrap;    
@@ -6,17 +7,45 @@
   justify-content: space-between;
   width: 100%;
   padding: 45px 0;
-  .logo {
-    width: auto;
-    height: 80px;
-  }
+  transition: 0.6s;
   .name {
     font-size: 12px;
     font-family: "InterRegular", sans-serif;
-    strong {
-      font-size: 20px;
-      font-family: "InterBlack", sans-serif;
-      text-transform: uppercase;
+    h1 {
+      display: inline-block;
+      color: rgb(0, 0, 0);
+      font-size: 40px;
+      z-index: 1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      row-gap: 0px;
+      transition: 2s;
+      align-content: flex-start;
+      &:hover {
+        font-size: 60px;
+      }
+    }
+    h1 span {
+      line-height: 45px;
+    }
+    h1 span:after {
+      content: attr(data-shadow);
+      position: absolute;
+      top: 2px;
+      left: 5px;
+      z-index: -1;
+      text-shadow: none;
+      background-image: linear-gradient(45deg, transparent 45%, hsl(48, 20%, 90%) 45%, hsl(48, 20%, 90%) 55%, #3dff02 0);
+      background-size: 1.05em 0.05em;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shad-anim 15s linear infinite;
+    }
+    @keyframes shad-anim {
+      0% {background-position: 0 0}
+      0% {background-position: 100% -100%}
     }
   }
   .menu {
