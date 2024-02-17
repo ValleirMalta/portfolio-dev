@@ -1,4 +1,5 @@
 import HeadInfor from '@/components/HeadInfor';
+import Header from '@/components/Header';
 import Link from 'next/link'
 export default function pagReact(){
     return (
@@ -7,7 +8,12 @@ export default function pagReact(){
           title='React'
           description='Components em react'
         />
-        <h1>Pagina React - <Link href="/">Voltar</Link></h1>
+        <main className="mainHome">
+          <div className="containerHome">
+            <Header />
+            <h1>Pagina React - <Link href="/">Voltar</Link></h1>
+          </div>
+        </main>
         </>
     )
 }

@@ -8,8 +8,12 @@ export default function pageEfeitosCss(){
           description='Efeitos css'
         />
         
+      <main className="mainHome">
+        <div className="containerHome">
         
-        <h1>Efeito CSS - <Link href="/">Voltar</Link></h1>
+          <h1>Efeito CSS - <Link href="/">Voltar</Link></h1>
+        </div>
+      </main>
         
         </>
     )
