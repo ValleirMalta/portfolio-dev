@@ -17,7 +17,7 @@ export default function Home() {
         description='Curriculo Online'
       />
       <main className="mainHome"  ref={checkboxRef}>
-        <SelectOne checkboxRef={checkboxRef} />
+        {/* <SelectOne checkboxRef={checkboxRef} /> */}
         <div className="container">
           <Header />
           <AboutMe />

@@ -11,10 +11,10 @@ export default function HeaderMain(){
                 </h1>
             </div>
             <nav className={styles.menu}>
-                <ul>
+                {/* <ul>
                 <li><Link href="/react">React</Link></li>
                 <li><Link href="/efeitosCss">Efeitos CSS</Link></li>
-                </ul>
+                </ul> */}
             </nav>
         </header>
         </>

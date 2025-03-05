@@ -15,8 +15,8 @@ export default function AboutMe(){
               </div>
               <div className={styles.personalInfor}>
                   <p>Brazil, 31.03.1995</p>
-                  <p>Curitiba, Paraná, Brasil</p>
-                  <p><strong>+55 (41) 984016243</strong></p>
+                  <p>Porto Velho, RO, Brasil</p>
+                  <p><strong>+55 (69) 993988701</strong></p>
                   <p><strong>valleir.sud@gmail.com</strong></p>
               </div>
             </section>
